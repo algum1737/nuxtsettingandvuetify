@@ -1,4 +1,5 @@
 import colors from 'vuetify/es5/util/colors'
+require('dotenv').config()
 
 export default {
   /*
@@ -49,16 +50,16 @@ export default {
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
-    '@nuxtjs/vuetify',
-    '@nuxtjs/dotenv'
+    '@nuxtjs/vuetify'
   ],
   /*
-   ** Nuxt.js modules
-   */
+  ** Nuxt.js modules
+  */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    'vuetify-dialog/nuxt'
+    'vuetify-dialog/nuxt',
+    '@nuxtjs/dotenv'
   ],
   /*
    ** Axios module configuration

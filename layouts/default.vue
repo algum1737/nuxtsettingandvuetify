@@ -3,7 +3,11 @@
     <v-main>
       <v-toolbar color="indigo text--white">
         <v-app-bar-nav-icon />
-        <v-toolbar-title>Learning Nuxt</v-toolbar-title>
+        <v-toolbar-title>
+          <n-link to="/">
+            Learning Nuxt
+          </n-link>
+        </v-toolbar-title>
         <v-spacer />
         <v-toolbar-items class="hidden-sm-and-down">
           <v-btn text>
